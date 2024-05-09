@@ -1,0 +1,77 @@
+.shop-login-con,
+.shop-main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-con{
+    width: 650px;
+    background-color: transparent;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.login-container{
+    display: grid;
+    grid-template-columns: 400px 220px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: space-around;
+}
+
+.login-con-right{
+    background-color: transparent;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-con-left{
+    background-image: url('../../assets/shop-login.jpg');
+    background-size: cover;
+}
+
+#login-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.image-con{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    background-image: url('../../assets/shop_title-image.jpg');
+    background-size: cover;
+}
+
+.shoping-input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.shop-name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login-btn{
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(240, 166, 106);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#sign-in{
+    color: blue;
+}
+

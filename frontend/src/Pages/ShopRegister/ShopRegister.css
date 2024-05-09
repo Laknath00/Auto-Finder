@@ -1,0 +1,75 @@
+.Shop-register-con{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-reg-main{
+    background-color: transparent;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.register-con{
+    display: grid;
+    grid-template-columns: 400px 300px;
+    justify-content: space-around;
+    
+}
+
+.register-form{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoping-reg-input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#reg-title{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: rgb(29, 28, 28);
+}
+
+.input-field{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+}
+
+.image-container{
+    background-image: url('../../assets/shop-login.jpg');
+    background-size: cover;
+}
+
+.shoping-reg-input{
+    margin-bottom: 10px;
+}
+
+.image-reg{
+    height: 150px;
+    width: 200px;
+    background-image: url('../../assets/car-image.jpg');
+    background-size: cover;
+}
+
+.reg-btn{
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(240, 166, 106);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
